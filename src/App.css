@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+#root,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(196, 218, 220);
+  font-family: sans-serif;
+}
+.App {
+  margin: 0;
+  padding: 10px;
+  max-width: 520px;
+  margin: auto;
+  display: grid;
+  gap: 16px;
+}
+
+.header {
+  background-color: rgb(134, 134, 183);
+  color: white;
+  max-width: 500px;
+  max-height: 500px;
+  padding-left: 60px;
+}
+.troll-face {
+  height: 40px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meme-image {
+  position: relative;
+}
+
+.image {
+  max-width: 520px;
+  width: 100%;
+}
+.text {
+  width: 100%;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-break: anywhere;
+  text-align: center;
+  padding: 16px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.topText {
+  position: absolute;
+  top: 0;
+}
+.bottomText {
+  position: absolute;
+  bottom: 0;
+}
+.inputs-container {
+  display: flex;
+  gap: 16px;
+}
+.inputs {
+  padding: 16px;
+  width: 199px;
+  border-radius: 5px;
+  border: 1px black solid;
+  font-size: medium;
+  font-family: sans-serif;
+  flex: 1;
+}
+.btn {
+  width: 500px;
+  height: 50px;
+  background-color: rgb(134, 134, 183);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+}
